@@ -1,0 +1,127 @@
+<!-- 
+ 1. Criar um site (uma página) sobre Gerenciamento de Configuração de Software com HTML e CSS, que englobe:
+- Controle de Versão
+- Controle de Mudanças
+- Integração Contínua
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cltversion</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Gerenciamento de Configuração de Software com HTML e CSS</h1>
+    </div>
+
+    <div>
+        <h2>Controle de Versão</h2>
+        <p>
+            Os sistemas de controle de versão são programas de software que ajudam a controlar as alterações feitas no código ao 
+            longo do tempo. Sem o controle de versão, os desenvolvedores ficam tentado a manter várias cópias de código em seu 
+            computador. 
+        </p>
+        <ol>
+            <li>Por que o controle de versão é importante</li>
+            <p>Há muitas coisas que podem tomar muito tempo para um desenvolvedor. Reproduzir bugs, aprender novas ferramentas e 
+                adicionar novos recursos ou conteúdo são apenas alguns exemplos. À medida que as demandas dos usuários aumentam, 
+                o controle de versão ajuda as equipes a trabalharem juntas e fazerem entregas no prazo.
+            </p>
+            <li>Benefícios do controle de versão</li>
+            <ul>
+                <li>
+                    Criar fluxos de trabalho: Fluxos de trabalho de controle de versão impedem o caos de todos usando seu próprio 
+                    processo de desenvolvimento com ferramentas diferentes e incompatíveis. Os sistemas de controle de versão 
+                    fornecem imposição e permissões de processo, de modo que todos permaneçam em sintonia.
+                </li>
+                <li>
+                    Trabalhar com versões: Cada versão tem uma descrição para o que as alterações na versão fazem, como corrigir 
+                    um bug ou adicionar um recurso. Essas descrições ajudam a equipe a seguir as alterações no código por versão, 
+                    em vez de por alterações de arquivo individuais. O código armazenado em versões pode ser exibido e restaurado 
+                    a partir do controle de versão a qualquer momento, conforme necessário. As versões permitem basear novos 
+                    trabalhos em qualquer versão do código com mais facilidade.
+                </li>
+                <li>
+                    Codificar em conjunto: O controle de versão sincroniza as versões e garante que as alterações não estejam em 
+                    conflito com alterações de outras pessoas. A equipe conta com o controle de versão para ajudar a resolver e 
+                    vitar conflitos, mesmo quando as pessoas fazem alterações ao mesmo tempo.
+                </li>
+                <li>
+                    Manter um histórico: O controle de versão mantém um histórico das alterações à medida que a equipe salva novas 
+                    versões do código. Os membros da equipe podem revisar o histórico para descobrir quem, por que e quando as 
+                    alterações foram feitas. O histórico dá às equipes a confiança de experimentar, uma vez que é fácil reverter 
+                    para uma versão boa anterior a qualquer momento. O histórico permite que qualquer pessoa trabalhe com base em 
+                    qualquer versão do código, como para corrigir um bug em uma versão anterior.
+                </li>
+                <li>      
+                    Automatizar tarefas: Os recursos de automação de controle de versão economizam tempo e geram resultados 
+                    consistentes. O teste automatizado, a análise de código e a implantação quando novas versões são salvas no 
+                    controle de versão são três exemplos.
+                </li>
+            </ul>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Controle de Mudanças</h2>
+        <p>
+            Um produto de trabalho formalmente enviado que é utilizado para controlar todos os Pedidos do Investidor incluindo 
+            novos recursos, pedidos de melhoria, defeitos, alteração de requisitos e informações de status relacionadas por todo 
+            o ciclo de vida do projeto. Todo o histórico de mudanças será mantido com o Controle de Mudanças
+        </p>
+        <ul>
+            <li>As cinco etapas de um processo de controle de mudanças</li>
+            <ol>
+                <li>
+                    Início: Na fase de iniciação, solicita-se a alteração.
+                </li>
+                <li>
+                    Avaliação: A fase de avaliação não é necessariamente quando uma decisão é tomada, mas, sim, quando é repassada 
+                    para obter informações básicas, que provavelmente serão avaliadas por um líder do projeto ou do departamento.
+                </li>
+                <li>
+                    Análise: Na fase de análise do impacto da mudança, o líder do projeto toma uma decisão final sobre a aprovação ou 
+                    rejeição da solicitação.
+                </li>
+                <li>
+                    Implementação: A implementação da mudança pode variar dependendo do estágio em que se encontra o projeto, mas 
+                    em geral envolve uma atualização dos cronogramas do projeto e dos entregáveis, bem como o anúncio à equipe do 
+                    projeto. Logo em seguida pode-se iniciar o trabalho de fato.
+                </li>
+                <li>
+                    Encerramento: Na fase de encerramento, a documentação, os registros de mudanças e a comunicação devem ser 
+                    guardados num espaço compartilhado que possa ser acessado posteriormente.
+                </li>
+            </ol>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Integração Contínua</h2>
+        <p>
+            é uma prática de desenvolvimento de software de DevOps em que os desenvolvedores, com frequência, juntam suas 
+            alterações de código em um repositório central. Depois disso, criações e testes são executados.
+        </p>
+        <ol>
+            <li>Por que a integração contínua é necessária?</li>
+            <p>
+                No passado, os desenvolvedores de uma equipe podiam trabalhar isoladamente por um longo período e só juntar suas 
+                alterações à ramificação mestre quando concluíssem seu trabalho. Dessa forma, a junção das alterações de códigos 
+                era difícil e demorada, além de resultar no acúmulo de erros sem correção por longos períodos. Estes fatores 
+                dificultavam uma distribuição de atualizações rápida para os clientes.
+            </p>
+            <li>Como funciona a integração contínua?</li>
+            <p>
+                Com a integração continuada, os desenvolvedores frequentemente confirmam um repositório compartilhado usando um 
+                sistema de controle de versão, como o Git. Antes de cada confirmação, os desenvolvedores podem escolher executar 
+                testes de unidade locais em seus códigos como uma camada de verificação extra anterior à integração.
+            </p>
+        </ol>
+        <div class="img-profile"><img src="IntegracaoContinua.png" alt=""><p class="p-img"><center>Integração Contínua</center></p>
+        </div>
+    </div>
+</body>
+</html>
